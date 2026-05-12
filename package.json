@@ -1,0 +1,29 @@
+{
+  "name": "interactive-card-details-form",
+  "version": "1.0.0",
+  "description": "Interactive card details form challenge from Frontend Mentor built with HTML and SCSS",
+  "keywords": [
+    "sass",
+    "frontend-mentor",
+    "card-form"
+  ],
+  "homepage": "https://github.com/Dusha2/interactive-card-details-form#readme",
+  "bugs": {
+    "url": "https://github.com/Dusha2/interactive-card-details-form/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dusha2/interactive-card-details-form.git"
+  },
+  "license": "ISC",
+  "author": "Dushyn Roman",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "watch:css": "sass styles/main.scss dist/css/main.css --watch --style=expanded",
+    "build:css": "sass styles/main.scss dist/css/main.css --style=compressed"
+  },
+  "devDependencies": {
+    "sass": "^1.99.0"
+  }
+}
