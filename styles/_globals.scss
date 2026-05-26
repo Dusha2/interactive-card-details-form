@@ -1,0 +1,52 @@
+@use 'media' as media;
+
+body {
+    font-family: var(--font-family-base);
+    line-height: 1.28;
+    color: var(--color-deep-violet);
+
+    background-image: url('../../assets/images/bg-main-desktop.png');
+    background-repeat: no-repeat;
+    background-size: 33.5% 100%;
+
+    @include media.laptop {
+        background-size: 100% 40%;
+    }
+
+    @include media.mobile-L {
+        background-size: 100% 28%;
+    }
+}
+
+a,
+button,
+input,
+textarea,
+svg * {
+    transition-duration: var(--transition-duration);
+}
+
+input,
+button,
+textarea,
+select {
+    font-family: inherit;
+}
+
+.container {
+    max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+    margin-inline: auto;
+    padding-inline: var(--container-padding-x);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}

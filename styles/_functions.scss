@@ -1,0 +1,5 @@
+@use "sass:math";
+
+@function to-cqw($px, $container-width: 447) {
+    @return math.div($px, $container-width) * 100cqw;
+}

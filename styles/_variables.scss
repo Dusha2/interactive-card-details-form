@@ -1,0 +1,27 @@
+:root {
+    --color-white: #FFFFFF;
+    --color-red: #FF5050;
+    --color-light-grey: #DFDEE0;
+    --color-purplish-grey: #8F8694;
+    --color-deep-violet: #21092F;
+
+    --font-family-base: "Space Grotesk", sans-serif;
+
+    --border: 1px solid var(--color-light-grey);
+    --border-radius: 8px;
+    --active-input-border: linear-gradient(to right, hsl(249, 99%, 64%), hsl(278, 94%, 30%));
+
+    --container-width: 1050px;
+    --container-padding-x: 10px;
+
+    --filter-drop-shadow: drop-shadow(0px 39px 60px rgba(0, 0, 0, 0.142481));
+
+    --input-height: 45px;
+
+    --transition-duration: 0.2s;
+
+}
+
+
+
+
