@@ -41,7 +41,9 @@
                 </div>
             </div>
             <form action="" class="form">
-                <div class="form-content">
+                <fieldset class="form-content">
+                    <legend class="visually-hidden">Дані платіжної картки</legend>
+
                     <div class="form-group">
                         <label for="name">Cardholder Name</label>
                         <input 
@@ -106,7 +108,7 @@
                                 oninput="this.setCustomValidity(''); if(this.value.length > 3) this.value = this.value.slice(0, 3);">
                         </div>
                     </div>
-                </div>
+                </а>
                 <button type="submit">Confirm</button>
             </form>
         </section>
